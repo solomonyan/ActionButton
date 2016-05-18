@@ -195,7 +195,7 @@ public class ActionButton: NSObject {
     /**
         Presents or hides all the ActionButton's actions and changes the *active* state
     */
-    private func toggle() {
+    public func toggle() {
         self.animateMenu()
         self.showBlur()
         
